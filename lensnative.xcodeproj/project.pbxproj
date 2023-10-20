@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76B66A612AE1E9B300D7EA38 /* lensnativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A602AE1E9B300D7EA38 /* lensnativeApp.swift */; };
+		76B66A632AE1E9B300D7EA38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A622AE1E9B300D7EA38 /* ContentView.swift */; };
+		76B66A652AE1E9B400D7EA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B66A642AE1E9B400D7EA38 /* Assets.xcassets */; };
+		76B66A692AE1E9B400D7EA38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76B66A682AE1E9B400D7EA38 /* Preview Assets.xcassets */; };
+		76B66A732AE1E9B400D7EA38 /* lensnativeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A722AE1E9B400D7EA38 /* lensnativeTests.swift */; };
+		76B66A7D2AE1E9B400D7EA38 /* lensnativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A7C2AE1E9B400D7EA38 /* lensnativeUITests.swift */; };
+		76B66A7F2AE1E9B400D7EA38 /* lensnativeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A7E2AE1E9B400D7EA38 /* lensnativeUITestsLaunchTests.swift */; };
+		76B66A8D2AE1E9D900D7EA38 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 76B66A8C2AE1E9D900D7EA38 /* Apollo */; };
+		76B66A9D2AE31C5800D7EA38 /* PublicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B66A9C2AE31C5800D7EA38 /* PublicationView.swift */; };
+		76B66AA62AE3322A00D7EA38 /* LensAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 76B66AA52AE3322A00D7EA38 /* LensAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B66A6F2AE1E9B400D7EA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B66A552AE1E9B300D7EA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B66A5C2AE1E9B300D7EA38;
+			remoteInfo = lensnative;
+		};
+		76B66A792AE1E9B400D7EA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76B66A552AE1E9B300D7EA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76B66A5C2AE1E9B300D7EA38;
+			remoteInfo = lensnative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B66A5D2AE1E9B300D7EA38 /* lensnative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lensnative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B66A602AE1E9B300D7EA38 /* lensnativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lensnativeApp.swift; sourceTree = "<group>"; };
+		76B66A622AE1E9B300D7EA38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76B66A642AE1E9B400D7EA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76B66A662AE1E9B400D7EA38 /* lensnative.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lensnative.entitlements; sourceTree = "<group>"; };
+		76B66A682AE1E9B400D7EA38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76B66A6E2AE1E9B400D7EA38 /* lensnativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lensnativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B66A722AE1E9B400D7EA38 /* lensnativeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lensnativeTests.swift; sourceTree = "<group>"; };
+		76B66A782AE1E9B400D7EA38 /* lensnativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lensnativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B66A7C2AE1E9B400D7EA38 /* lensnativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lensnativeUITests.swift; sourceTree = "<group>"; };
+		76B66A7E2AE1E9B400D7EA38 /* lensnativeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lensnativeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76B66A9C2AE31C5800D7EA38 /* PublicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicationView.swift; sourceTree = "<group>"; };
+		76B66AA42AE3322500D7EA38 /* LensAPI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LensAPI; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76B66A5A2AE1E9B300D7EA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B66A8D2AE1E9D900D7EA38 /* Apollo in Frameworks */,
+				76B66AA62AE3322A00D7EA38 /* LensAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A6B2AE1E9B400D7EA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A752AE1E9B400D7EA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76B66A542AE1E9B300D7EA38 = {
+			isa = PBXGroup;
+			children = (
+				76B66A8E2AE1EAEF00D7EA38 /* Packages */,
+				76B66A5F2AE1E9B300D7EA38 /* lensnative */,
+				76B66A712AE1E9B400D7EA38 /* lensnativeTests */,
+				76B66A7B2AE1E9B400D7EA38 /* lensnativeUITests */,
+				76B66A5E2AE1E9B300D7EA38 /* Products */,
+				76B66A902AE1EB0300D7EA38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76B66A5E2AE1E9B300D7EA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76B66A5D2AE1E9B300D7EA38 /* lensnative.app */,
+				76B66A6E2AE1E9B400D7EA38 /* lensnativeTests.xctest */,
+				76B66A782AE1E9B400D7EA38 /* lensnativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B66A5F2AE1E9B300D7EA38 /* lensnative */ = {
+			isa = PBXGroup;
+			children = (
+				76B66A602AE1E9B300D7EA38 /* lensnativeApp.swift */,
+				76B66A622AE1E9B300D7EA38 /* ContentView.swift */,
+				76B66A642AE1E9B400D7EA38 /* Assets.xcassets */,
+				76B66A662AE1E9B400D7EA38 /* lensnative.entitlements */,
+				76B66A672AE1E9B400D7EA38 /* Preview Content */,
+				76B66A9C2AE31C5800D7EA38 /* PublicationView.swift */,
+			);
+			path = lensnative;
+			sourceTree = "<group>";
+		};
+		76B66A672AE1E9B400D7EA38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76B66A682AE1E9B400D7EA38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76B66A712AE1E9B400D7EA38 /* lensnativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				76B66A722AE1E9B400D7EA38 /* lensnativeTests.swift */,
+			);
+			path = lensnativeTests;
+			sourceTree = "<group>";
+		};
+		76B66A7B2AE1E9B400D7EA38 /* lensnativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76B66A7C2AE1E9B400D7EA38 /* lensnativeUITests.swift */,
+				76B66A7E2AE1E9B400D7EA38 /* lensnativeUITestsLaunchTests.swift */,
+			);
+			path = lensnativeUITests;
+			sourceTree = "<group>";
+		};
+		76B66A8E2AE1EAEF00D7EA38 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				76B66AA42AE3322500D7EA38 /* LensAPI */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		76B66A902AE1EB0300D7EA38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76B66A5C2AE1E9B300D7EA38 /* lensnative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B66A822AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnative" */;
+			buildPhases = (
+				76B66A592AE1E9B300D7EA38 /* Sources */,
+				76B66A5A2AE1E9B300D7EA38 /* Frameworks */,
+				76B66A5B2AE1E9B300D7EA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lensnative;
+			packageProductDependencies = (
+				76B66A8C2AE1E9D900D7EA38 /* Apollo */,
+				76B66AA52AE3322A00D7EA38 /* LensAPI */,
+			);
+			productName = lensnative;
+			productReference = 76B66A5D2AE1E9B300D7EA38 /* lensnative.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76B66A6D2AE1E9B400D7EA38 /* lensnativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B66A852AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnativeTests" */;
+			buildPhases = (
+				76B66A6A2AE1E9B400D7EA38 /* Sources */,
+				76B66A6B2AE1E9B400D7EA38 /* Frameworks */,
+				76B66A6C2AE1E9B400D7EA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B66A702AE1E9B400D7EA38 /* PBXTargetDependency */,
+			);
+			name = lensnativeTests;
+			productName = lensnativeTests;
+			productReference = 76B66A6E2AE1E9B400D7EA38 /* lensnativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76B66A772AE1E9B400D7EA38 /* lensnativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76B66A882AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnativeUITests" */;
+			buildPhases = (
+				76B66A742AE1E9B400D7EA38 /* Sources */,
+				76B66A752AE1E9B400D7EA38 /* Frameworks */,
+				76B66A762AE1E9B400D7EA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76B66A7A2AE1E9B400D7EA38 /* PBXTargetDependency */,
+			);
+			name = lensnativeUITests;
+			productName = lensnativeUITests;
+			productReference = 76B66A782AE1E9B400D7EA38 /* lensnativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76B66A552AE1E9B300D7EA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					76B66A5C2AE1E9B300D7EA38 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					76B66A6D2AE1E9B400D7EA38 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 76B66A5C2AE1E9B300D7EA38;
+					};
+					76B66A772AE1E9B400D7EA38 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 76B66A5C2AE1E9B300D7EA38;
+					};
+				};
+			};
+			buildConfigurationList = 76B66A582AE1E9B300D7EA38 /* Build configuration list for PBXProject "lensnative" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76B66A542AE1E9B300D7EA38;
+			packageReferences = (
+				76B66A8B2AE1E9D900D7EA38 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 76B66A5E2AE1E9B300D7EA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76B66A5C2AE1E9B300D7EA38 /* lensnative */,
+				76B66A6D2AE1E9B400D7EA38 /* lensnativeTests */,
+				76B66A772AE1E9B400D7EA38 /* lensnativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76B66A5B2AE1E9B300D7EA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B66A692AE1E9B400D7EA38 /* Preview Assets.xcassets in Resources */,
+				76B66A652AE1E9B400D7EA38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A6C2AE1E9B400D7EA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A762AE1E9B400D7EA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76B66A592AE1E9B300D7EA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B66A632AE1E9B300D7EA38 /* ContentView.swift in Sources */,
+				76B66A612AE1E9B300D7EA38 /* lensnativeApp.swift in Sources */,
+				76B66A9D2AE31C5800D7EA38 /* PublicationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A6A2AE1E9B400D7EA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B66A732AE1E9B400D7EA38 /* lensnativeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B66A742AE1E9B400D7EA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76B66A7D2AE1E9B400D7EA38 /* lensnativeUITests.swift in Sources */,
+				76B66A7F2AE1E9B400D7EA38 /* lensnativeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76B66A702AE1E9B400D7EA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B66A5C2AE1E9B300D7EA38 /* lensnative */;
+			targetProxy = 76B66A6F2AE1E9B400D7EA38 /* PBXContainerItemProxy */;
+		};
+		76B66A7A2AE1E9B400D7EA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76B66A5C2AE1E9B300D7EA38 /* lensnative */;
+			targetProxy = 76B66A792AE1E9B400D7EA38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76B66A802AE1E9B400D7EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76B66A812AE1E9B400D7EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		76B66A832AE1E9B400D7EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lensnative/lensnative.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lensnative/Preview Content\"";
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76B66A842AE1E9B400D7EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lensnative/lensnative.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lensnative/Preview Content\"";
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76B66A862AE1E9B400D7EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lensnative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lensnative";
+			};
+			name = Debug;
+		};
+		76B66A872AE1E9B400D7EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lensnative.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lensnative";
+			};
+			name = Release;
+		};
+		76B66A892AE1E9B400D7EA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lensnative;
+			};
+			name = Debug;
+		};
+		76B66A8A2AE1E9B400D7EA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 53AVFQ476L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lensnative.naderdabit.lensnativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lensnative;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76B66A582AE1E9B300D7EA38 /* Build configuration list for PBXProject "lensnative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B66A802AE1E9B400D7EA38 /* Debug */,
+				76B66A812AE1E9B400D7EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B66A822AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B66A832AE1E9B400D7EA38 /* Debug */,
+				76B66A842AE1E9B400D7EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B66A852AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B66A862AE1E9B400D7EA38 /* Debug */,
+				76B66A872AE1E9B400D7EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76B66A882AE1E9B400D7EA38 /* Build configuration list for PBXNativeTarget "lensnativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B66A892AE1E9B400D7EA38 /* Debug */,
+				76B66A8A2AE1E9B400D7EA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		76B66A8B2AE1E9D900D7EA38 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		76B66A8C2AE1E9D900D7EA38 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 76B66A8B2AE1E9D900D7EA38 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		76B66AA52AE3322A00D7EA38 /* LensAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LensAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 76B66A552AE1E9B300D7EA38 /* Project object */;
+}

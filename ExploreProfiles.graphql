@@ -1,0 +1,33 @@
+query explore {
+  explorePublications(request: {
+    sortCriteria: TOP_COMMENTED
+    publicationTypes: POST
+  }) {
+    items {
+      ... on Post {
+        id
+        metadata {
+          content
+          image
+          media {
+            original {
+              url
+            }
+          }
+        }
+        profile {
+          id
+          handle
+          name
+          picture {
+            ... on MediaSet {
+              original {
+                url
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

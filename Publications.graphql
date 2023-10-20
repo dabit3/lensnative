@@ -1,0 +1,23 @@
+query publications(
+  $profileId: ProfileId!
+) {
+  publications(request: {
+    publicationTypes: [POST]
+    profileId: $profileId
+  }) {
+    items {
+      ... on Post {
+        id
+        metadata {
+          content
+          image
+          media {
+            original {
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+}
