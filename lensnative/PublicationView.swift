@@ -53,7 +53,7 @@ struct PublicationView: View {
                 EmptyView()
             }
             Text("@" + post.profile.handle)
-                .foregroundColor(Color(red: 0.5, green: 0.3, blue: 0.8))
+                .foregroundColor(Color(.sRGB, white: 0.5, opacity: 1.0))
                 .fontWeight(.semibold)
             List(fetchedPosts, id: \.id) { fetchedPost in
                 VStack(
